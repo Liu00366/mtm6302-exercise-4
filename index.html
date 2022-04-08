@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Countdown</title>
+</head>
+
+<body>
+
+
+    <title>Countdown</title>
+    <div class="from-container">
+        <form id="event-form" class="event-form">
+           <h2 class="enent-form_tital">Create a Countdown</h2>
+           <label for="title">
+               <input type="text" id="title">
+           </label>
+           <label for="event">
+               <input type="datetime-local" id="event">
+           </label>
+           <button class="start_btn" type="submit" value="Add New Countdown">
+               Start Countdown
+           </button>
+        </form>  
+    </div>
+
+    <div class="event-container">
+        <div class="event">
+            
+            <h2 class="event_title">
+                Star Wars Day
+            </h2>
+            <div class="event_countdown">
+                <div class="event_item">
+                    <p class="event_title--title" id="day_title">30</p>
+                    <p id="day_name">days</p>
+                </div>
+                <div class="event_item">
+                    <p class="event_title--title" id="hour_title">30</p>
+                    <p id="hour_name">hours</p>
+                </div>
+                <div class="event_item">
+                    <p class="event_title--title" id="minute_title">30</p>
+                    <p id="minute_name">minutes</p>
+                </div>
+                <div class="event_item">
+                    <p class="event_title--title" id="second_title">30</p>
+                    <p id="second_name">seconds</p>
+                </div>
+            </div>
+            <button class="event_btn">
+                Clear Countdown
+            </button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
