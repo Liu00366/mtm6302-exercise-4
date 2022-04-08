@@ -10,20 +10,17 @@
 </head>
 
 <body>
-
-
-    <title>Countdown</title>
-    <div class="from-container">
+    <div class="form-container">
         <form id="event-form" class="event-form">
-           <h2 class="enent-form_tital">Create a Countdown</h2>
+           <h2 class="event-form__title">new event</h2>
            <label for="title">
-               <input type="text" id="title">
+               <input type="text" id="title" placeholder="Add event name">
            </label>
            <label for="event">
                <input type="datetime-local" id="event">
            </label>
            <button class="start_btn" type="submit" value="Add New Countdown">
-               Start Countdown
+            Add New Countdown
            </button>
         </form>  
     </div>
@@ -31,28 +28,28 @@
     <div class="event-container">
         <div class="event">
             
-            <h2 class="event_title">
+            <h2 class="event__title">
                 Star Wars Day
             </h2>
-            <div class="event_countdown">
-                <div class="event_item">
-                    <p class="event_title--title" id="day_title">30</p>
-                    <p id="day_name">days</p>
+            <div class="event__countdown">
+                <div class="event__item">
+                    <p class="event__title--title" id="day__title">30</p>
+                    <p id="day__name">days</p>
                 </div>
-                <div class="event_item">
-                    <p class="event_title--title" id="hour_title">30</p>
-                    <p id="hour_name">hours</p>
+                <div class="event__item">
+                    <p class="event__title--title" id="hour__title">30</p>
+                    <p id="hour__name">hours</p>
                 </div>
-                <div class="event_item">
-                    <p class="event_title--title" id="minute_title">30</p>
-                    <p id="minute_name">minutes</p>
+                <div class="event__item">
+                    <p class="event__title--title" id="minute__title">30</p>
+                    <p id="minute__name">minutes</p>
                 </div>
-                <div class="event_item">
-                    <p class="event_title--title" id="second_title">30</p>
-                    <p id="second_name">seconds</p>
+                <div class="event__item">
+                    <p class="event__title--title" id="second__title">30</p>
+                    <p id="second__name">seconds</p>
                 </div>
             </div>
-            <button class="event_btn">
+            <button class="event__btn">
                 Clear Countdown
             </button>
         </div>
